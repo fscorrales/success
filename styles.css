@@ -6,9 +6,19 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 .container {
+  width: 90%;
+  max-width: 500px;
   text-align: center;
   background: white;
   padding: 20px;
@@ -17,12 +27,12 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   color: #333;
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #666;
 }
 
@@ -34,6 +44,7 @@ a {
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  transition: background 0.3s ease;
 }
 
 a:hover {
@@ -42,4 +53,10 @@ a:hover {
 
 .success-container {
   margin-top: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
 }
