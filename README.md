@@ -1,1 +1,1 @@
-https://fscorrales.github.io/failure_page/
+https://fscorrales.github.io/success_page/
